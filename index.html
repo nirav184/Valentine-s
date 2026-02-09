@@ -91,9 +91,9 @@
         /* Hidden YouTube Audio */
         #music-player {
             position: absolute;
-            visibility: hidden;
-            width: 1px;
-            height: 1px;
+            visibility: visible;
+            width: 300px;
+            height: 300px;
         }
     </style>
 </head>
@@ -154,7 +154,7 @@
             if(noBtn) noBtn.style.display = 'none';
 
             document.getElementById('headline').innerHTML = "I knew you'd say yes! 😘";
-          /*  document.getElementById('subtext').innerHTML = "Tumhare hi rahenge... hamesha.";*/
+            document.getElementById('subtext').innerHTML = "Tumhare hi rahenge... hamesha.";
             document.getElementById('question').innerHTML = "I love you Bibbbssss! ❤️ 😘";
             
             setInterval(createEmoji, 150);
